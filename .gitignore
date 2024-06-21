@@ -1,0 +1,6 @@
+#remove all the pdf file 
+/*.pdf
+
+#ignore node modules
+/*node_modules
+
