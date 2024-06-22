@@ -1,0 +1,57 @@
+.searchIC {
+  position: absolute;
+  top: 2px;
+  opacity: 0.6;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  border-radius: 10em !important;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #000000;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-dark {
+  background-color: #242424 !important;
+  color: #fff !important;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 10em;
+  cursor: pointer;
+  opacity: none;
+}
+
+.btn-dark:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.me-2 {
+  padding-left: 3em;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.post-author {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.post-status {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px 0;
+  
+}
